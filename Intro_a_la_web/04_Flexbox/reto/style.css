@@ -1,0 +1,47 @@
+.bandera {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+    justify-content: space-between;
+} 
+    
+.rectangulo {
+    background: red;
+    height: 200px;
+    width: 600px;
+} 
+
+.arriba, .abajo { 
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.cuadrado {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+} 
+
+.arriba .left {
+    border-right:  10px solid white;
+    border-bottom: 10px solid white;
+}
+
+.abajo .left {
+    border-right:  10px solid white;
+    border-top: 10px solid white;
+}
+
+.arriba .right {
+    border-left:  10px solid white;
+    border-bottom: 10px solid white;
+}
+
+.abajo .right {
+    border-left:  10px solid white;
+    border-top: 10px solid white;
+}
+

@@ -1,0 +1,60 @@
+
+html {
+    font-family: system-ui;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title {
+    border: 8px solid rgb(145, 89, 131);
+    width: 20vw;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    background-color: palevioletred;
+    border: 2px solid rgb(145, 89, 131);
+    border-radius: 1rem;
+    /* display: inline-block; */
+    height: 50vw;
+    margin: .5rem;
+    padding: 0;
+    width: 35vw;
+}
+
+.card-body {
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+.card-bottom {
+    color: white;
+    padding: 0rem 0.5rem 1rem 0.5rem
+}
+
+.img-fluid {
+    border-radius: .5rem .5rem 0 0;
+    border: 2px solid rgb(145, 89, 131);
+    background-color: white;
+    max-width: 100%;
+    margin-bottom: 12px;
+}
+
+header {
+    padding: 32px 32px 0px 32px
+}
+
+h3 {
+    color: white;
+    margin: 0;
+}
+
+#first-card:hover {
+        transform: rotate(30deg);
+        transition: 2s;
+      }
+}

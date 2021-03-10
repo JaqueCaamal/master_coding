@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+/* Probando que nuestra conexión haya funcionado aplicando un estilo a todo con asterisco */
+/* * {
+  background: red;
+} */
+
+/* Aplicando estilos directamente a las etiquetas */
+/* Esto aplica a todas las etiquetas que encuentre */
+h1 {
+  color: #7133FF;
+  font-style: italic;
+  font-family: 'DotGothic16', sans-serif;;
+}
+p {
+  color: #7133FF;
+}
+
+/* Aplicando estilos por clase */
+/* Las clases normalmente son estilos que se repiten */
+h2 {
+  font-size: 25px;
+}
+.subtitulo-rosaFuerte {
+  color: #DB49A6;
+}
+.subtitulo-rosa {
+  color: #AD6EC8;
+}
+
+/* Aplicando estilos por ID */
+/* Los identificadores son elementos únicos, es decir, que no se repiten */
+img {
+  width: 200px;
+  border: 5px solid #5028c2;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#foto-perfil {
+  width: 150px;
+  border-radius: 80%;
+}
+
+/* Aplicando estilos a pseudoclases */
+/* Lsa pseudoclases sirven para aplicar estilos dependiendo del estado de determinado elemento */
+img:hover {
+  transform: rotate(30deg);
+  width: 300px;
+  transition: 2s;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+input {
+  display: block;
+  height: 30px;
+  width: 50%;
+  border: 3px dotted;
+  margin: 30px;
+}
+input:focus {
+  outline: none;
+  border-color: #DB49A6;
+}
+
+/* Más información sobre CSS: https://www.w3schools.com/html/html_css.asp */

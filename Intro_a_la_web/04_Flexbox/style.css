@@ -1,0 +1,29 @@
+* {
+    background: rgb(165, 140, 190);
+}
+
+.madre {
+    border: 4px solid rgb(236, 226, 129);
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .hija {
+    border: 3px solid purple;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .nieta {
+    border: 1px solid rgb(79, 139, 207);
+    height: 20px;
+    width: 20px;
+    } 
